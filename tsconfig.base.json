@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@proto/*": ["packages/proto/src/*"],
+      "@shared-prisma/*": ["packages/shared-prisma/src/*"],
+      "@utils/*": ["packages/shared-utils/src/*"],
+      "@config/*": ["packages/shared-config/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "starter-turborepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "turbo": "^1.10.12"
+  }
+}
